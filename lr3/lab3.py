@@ -73,13 +73,6 @@ plt.plot(range(1, len(smooth_mae_history)+1), smooth_mae_history)
 plt.xlabel('EPOCHS')
 plt.ylabel("Validation MAE")
 plt.show()
-# plt.plot(np.mean(mean_mae, axis=0))
-# plt.plot(np.mean(mean_val_mae, axis=0))
-# title = 'Mean model mae'
-# plt.title(title)
-# plt.ylabel('mae')
-# plt.xlabel('Epoch')
-# plt.legend(['Train', 'Test'], loc='upper left')
-# plt.show()
+
 
 
